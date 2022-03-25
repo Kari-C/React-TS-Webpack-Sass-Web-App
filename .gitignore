@@ -1,0 +1,40 @@
+/node_modules
+/vendor/
+/scoped-vendor/
+phpunit.xml
+phpcs.xml
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea
+.idea_modules/
+.phpintel/
+/out/
+.vscode
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# CMake
+cmake-build-debug/
+
+# Language files
+*.mo
+*.po

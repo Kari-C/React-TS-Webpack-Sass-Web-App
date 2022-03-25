@@ -1,0 +1,8 @@
+# BEGIN App
+# Turn on the rewrite engine
+RewriteEngine On
+
+# Force HTTPS and WWW
+RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
+RewriteCond %{https} off
+RewriteRule ^(.*)$ https://www.funshop.pro/kc/dist/$1 [R=301,L]
